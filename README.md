@@ -2,6 +2,11 @@
 My Notes application build in java, using libraries like JAVAFX &amp; JDBC, 
 Here you can find the complete source code.
 
+this project includes concepts like:
+  - DBMS
+  - GUI
+  - Design Patterns
+
 Database name: info
 1st table name: users
 2nd table name: textnotes
