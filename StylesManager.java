@@ -10,7 +10,6 @@ public class StylesManager {
         button.setStyle("-fx-background-color: #FFCE30; -fx-text-fill: black; -fx-font-size: 14px; ");
     }
     public static void SetSceneBackground(BorderPane borderPane){
-//        borderPane.setStyle("-");
         borderPane.setBackground(Background.fill(Color.AZURE));
     }
     public static void SetTextAreaStyle(TextArea textArea){
