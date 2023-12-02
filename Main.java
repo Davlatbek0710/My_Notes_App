@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
     public static final int WIDTH = 450;
     public static final int HEIGHT = 650;
-    public static Image icon;
+    public Image icon;
     public static Stage PrimaryStage;
     public static Scene scene;
     public static void main(String[] args) {
