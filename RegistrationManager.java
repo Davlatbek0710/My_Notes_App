@@ -24,16 +24,11 @@ public class RegistrationManager {
         TextField usernameField = new TextField();
         usernameField.setScaleX(1.075);
         usernameField.setPromptText("username");
-//        usernameField.setStyle("-fx-background-color: black; -fx-border-color: white; -fx-border-width: 1.5px; -fx-border-radius: 10px; -fx-text-fill: white;"+
-//                "-fx-font-size: 14px; -fx-prompt-text-fill: white;");
 
 
         TextField passwordField = new TextField();
         passwordField.setPromptText("password");
         passwordField.setScaleX(1.075);
-//        passwordField.setStyle("-fx-background-color: black; -fx-border-color: white; -fx-border-width: 1.5px; -fx-border-radius: 10px; -fx-text-fill: white;"+
-//                "-fx-font-size: 14px;" +
-//                "-fx-prompt-text-fill: white;");
 
 
         Button registerButton = new Button(up_or_in);
@@ -59,8 +54,6 @@ public class RegistrationManager {
         BorderPane.setAlignment(grid, Pos.CENTER);
 
         // verification of username and password
-//        AuthenticationManager.signUp(usernameField.getText(), passwordField.getText());
-
         if (up_or_in.equals("SignIn")){
         registerButton.setOnAction(e->{
             if(AuthenticationManager.signUp(usernameField.getText(), passwordField.getText())){
